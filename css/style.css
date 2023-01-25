@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin-top: 80px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -46,3 +50,71 @@ header {
     color: #ffffff;
 }
 /* /nav-bar */
+
+
+
+/* main */
+main > .container-general{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+/* male1 */
+.container-general #img-male1{
+    width: 300px;
+    height: 450px;
+    background-color: green;
+}
+
+/* /male1 */
+
+/* female1 */
+.container-general #img-female1{
+    width: 300px;
+    height: 450px;
+    background-color: red;
+}
+/* /female1 */
+
+/* female2 */
+.container-general #img-female2{
+    width: 300px;
+    height: 450px;
+    background-color: green;
+}
+/* /female2 */
+
+/* male2 */
+.container-general #img-male2{
+    width: 300px;
+    height: 450px;
+    background-color: green;
+}
+/* /male2 */
+
+/* female3 */
+.container-general #img-female3{
+    width: 300px;
+    height: 450px;
+    background-color: green;
+}
+/* /female3 */
+
+/* female4 */
+.container-general #img-female4{
+    width: 300px;
+    height: 450px;
+    background-color: green;
+}
+/* /female4 */
+
+.red-price{
+    color: red;
+}
+
+/* /main */
+
+
+
