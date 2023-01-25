@@ -13,6 +13,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 3;
     background-color: #ff6900;
     height: 80px;
 }
@@ -28,7 +29,6 @@ header {
     justify-content: space-between;
     align-items: center; 
     height: 80px;
-
 }
 
 .container-general ul{
@@ -58,62 +58,66 @@ main > .container-general{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 60px;
+    margin-bottom: 60px;
+    margin-top: 120px;
+}
+.container-general .img-container .image{
+    position: relative;
 }
 
-/* male1 */
-.container-general #img-male1{
-    width: 300px;
-    height: 450px;
-    background-color: green;
+.container-general .img-container .image .heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
 }
 
-/* /male1 */
-
-/* female1 */
-.container-general #img-female1{
-    width: 300px;
-    height: 450px;
+.container-general .img-container .image .discount{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    color: white;
     background-color: red;
 }
-/* /female1 */
 
-/* female2 */
-.container-general #img-female2{
-    width: 300px;
-    height: 450px;
+.container-general .img-container .image .eco{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    color: white;
     background-color: green;
 }
-/* /female2 */
 
-/* male2 */
-.container-general #img-male2{
-    width: 300px;
-    height: 450px;
+.container-general .img-container .image .-eco{
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    color: white;
     background-color: green;
 }
-/* /male2 */
 
-/* female3 */
-.container-general #img-female3{
-    width: 300px;
+
+.container-general .img-container .image img{ 
     height: 450px;
-    background-color: green;
 }
-/* /female3 */
 
-/* female4 */
-.container-general #img-female4{
-    width: 300px;
-    height: 450px;
-    background-color: green;
-}
-/* /female4 */
-
-.red-price{
+.container-general .img-container .red-price{
     color: red;
 }
-
 /* /main */
 
 
